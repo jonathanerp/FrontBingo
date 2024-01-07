@@ -1,7 +1,11 @@
+import Navbar from "../Components/Navbar";
 
 const Salaespera = () => {
     return (
-        <div>Salaespera</div>
+        <>
+            <Navbar/>
+            <div>Salaespera</div>
+        </>
     )
 }
 

@@ -1,7 +1,11 @@
+import Navbar from "../Components/Navbar";
 
 const Sala = () => {
     return (
-        <div>Sala</div>
+        <>
+            <Navbar/>
+            <div>Sala</div>
+        </>
     )
 }
 
